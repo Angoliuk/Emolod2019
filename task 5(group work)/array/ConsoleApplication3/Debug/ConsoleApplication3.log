@@ -1,0 +1,4 @@
+﻿  ConsoleApplication3.cpp
+C:\Users\Game\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(9,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Game\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(51,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  ConsoleApplication3.vcxproj -> C:\Users\Game\source\repos\ConsoleApplication3\Debug\ConsoleApplication3.exe
