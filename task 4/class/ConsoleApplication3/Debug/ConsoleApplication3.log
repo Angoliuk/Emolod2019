@@ -1,4 +1,4 @@
 ﻿  ConsoleApplication3.cpp
-C:\Users\Game\source\repos\ConsoleApplication3\ConsoleApplication3\Actions.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-C:\Users\Game\source\repos\ConsoleApplication3\ConsoleApplication3\Actions.h(16,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  ConsoleApplication3.vcxproj -> C:\Users\Game\source\repos\ConsoleApplication3\Debug\ConsoleApplication3.exe
+C:\Users\Game\source\repos\task 4\class\ConsoleApplication3\ConsoleApplication3.cpp(19,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Game\source\repos\task 4\class\ConsoleApplication3\ConsoleApplication3.cpp(17,13): warning C4101: startAction: неиспользованная локальная переменная
+  ConsoleApplication3.vcxproj -> C:\Users\Game\source\repos\task 4\class\Debug\ConsoleApplication3.exe
