@@ -19,6 +19,15 @@ using namespace std;
 
 int main()
 {
+	Herbal wheat;
+	wheat.setCerealPlant();
+	Animal bear;
+	bear.setEnableFur();
+	Human nick;
+	nick.setAge();
+	Description elf;
+	elf.setDanger();
+	elf.getDanger();
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

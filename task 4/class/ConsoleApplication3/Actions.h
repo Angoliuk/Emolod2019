@@ -12,20 +12,20 @@ private:
 public:
 
 	void getFirstElement(vector<vector<int>> array) {
-		cout << "First element is : " << array.front();
+		cout << "First element is : " << array[1][1];
 	}
 
-	int getLastElement(int array) {
-		cout << array.back();
+	int getLastElement(vector<vector<int>> array) {
+		cout << array[array[0].size()][array.size()];
 		return 0;
 	}
 
-	int getLength(int array) {
-		cout << "length is : " << array.size();
+	int getLength(vector<vector<int>> array) {
+		cout << "length is : " << array[0].size()*array.size();
 		return 0;
 	}
 	//dont work
-	int reverseArray(int** array, int height, int width) {
+	/*int reverseArray(int** array, int height, int width) {
 		for (int i = 0; i < height; i++)
 		{
 			for (int j = 0; j < width; j++)
@@ -37,6 +37,6 @@ public:
 			}
 		}
 		return 0;
-	}
+	}*/
 };
 

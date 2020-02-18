@@ -2,7 +2,7 @@
 #include "Animal.h"
 
 
-class CarnivorousAnimal : Animal
+class CarnivorousAnimal : public Animal
 {
 private:
 	bool hunterAnimal;

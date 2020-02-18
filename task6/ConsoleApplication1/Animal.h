@@ -2,7 +2,7 @@
 #include "TypeOfNature.h"
 
 
-class Animal : Description
+class Animal : public Description
 {
 private:
 	bool wild = false;
