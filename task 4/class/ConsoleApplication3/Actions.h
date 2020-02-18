@@ -25,7 +25,9 @@ public:
 		return 0;
 	}
 	//dont work
-	/*int reverseArray(int** array, int height, int width) {
+	int reverseArray(vector<vector<int>> array) {
+		int height = array[0].size();
+		int width = array.size();
 		for (int i = 0; i < height; i++)
 		{
 			for (int j = 0; j < width; j++)
@@ -37,6 +39,6 @@ public:
 			}
 		}
 		return 0;
-	}*/
+	}
 };
 

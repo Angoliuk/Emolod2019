@@ -45,7 +45,7 @@ int main()
         break;
     case 4:
         //dont work
-        cout << "abc";
+        startAction.reverseArray(array);
         break;
     default:
         break;
