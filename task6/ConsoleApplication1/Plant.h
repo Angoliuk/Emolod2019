@@ -1,6 +1,7 @@
 #pragma once
 #include "TypeOfNature.h"
-class Plant : public Description
+class Plant :
+	public TypeOfNature
 {
 private:
 	float height, width;
@@ -9,15 +10,15 @@ private:
 public:
 	Plant() {
 		cout << endl << "Enter height of plant ";
-			cin >> height;
-			cout << endl << "Enter width of plant ";
-			cin >> width;
-			cout << endl << "Is plant have flowers(true/false) ";
-			cin >> enableFlower;
-		if (enableFlower==true)
+		cin >> height;
+		cout << endl << "Enter width of plant ";
+		cin >> width;
+		cout << endl << "Is plant have flowers(true/false) ";
+		cin >> enableFlower;
+		if (enableFlower == true)
 		{
 			cout << endl << "Enter color of flower ";
-				cin >> colorFlower;
+			cin >> colorFlower;
 		}
 	}
 	void getHeight() {
@@ -37,7 +38,7 @@ public:
 	}
 	void setColorFlower() {
 		cin >> colorFlower;
-		if (enableFlower==false)
+		if (enableFlower == false)
 		{
 			cout << endl << "No flower";
 			colorFlower = "No flower";
@@ -48,10 +49,10 @@ public:
 	}
 	void setEnableFlower() {
 		cin >> enableFlower;
-		if (enableFlower==true)
+		if (enableFlower == true)
 		{
 			cout << endl << "Enter color of flower ";
-				cin >> colorFlower;
+			cin >> colorFlower;
 		}
 	}
 };

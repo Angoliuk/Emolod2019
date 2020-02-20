@@ -1,8 +1,7 @@
 #pragma once
 #include "Animal.h"
-
-
-class HebivoresAnimal : public Animal
+class HebivoresAnimal :
+	public Animal
 {
 private:
 	string typeFood;

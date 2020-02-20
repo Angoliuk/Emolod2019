@@ -1,27 +1,26 @@
 #pragma once
 #include "TypeOfNature.h"
-
-
-class Human : public Description
+class Human :
+	public TypeOfNature
 {
 private:
-	float height, width, weight,age;
+	float height, width, weight, age;
 	string hairColor;
 	string	gender;
 public:
 	Human() {
 		cout << endl << "Enter height of human ";
-			cin >> height;
-			cout << endl << "Enter width of human ";
-			cin >> width;
-			cout << endl << "Enter weight of human ";
-			cin >> weight;
-			cout << endl << "Enter age of human ";
-			cin >> age;
-			cout << endl << "Enter color of hair ";
-			cin >> hairColor;
-			cout << endl << "Enter gender of human ";
-			cin >> gender;
+		cin >> height;
+		cout << endl << "Enter width of human ";
+		cin >> width;
+		cout << endl << "Enter weight of human ";
+		cin >> weight;
+		cout << endl << "Enter age of human ";
+		cin >> age;
+		cout << endl << "Enter color of hair ";
+		cin >> hairColor;
+		cout << endl << "Enter gender of human ";
+		cin >> gender;
 
 	}
 	void getHeight() {

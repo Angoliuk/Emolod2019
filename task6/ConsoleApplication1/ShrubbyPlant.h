@@ -1,17 +1,16 @@
 #pragma once
 #include "Plant.h"
-
-
-class Shrubby : public Plant
+class ShrubbyPlant :
+	public Plant
 {
 private:
-	bool lianaPlant,decorativePlant;
+	bool lianaPlant, decorativePlant;
 public:
-	Shrubby() {
+	ShrubbyPlant() {
 		cout << endl << "Is this liana?(true/false)";
-			cin >> lianaPlant;
-			cout << endl << "Is this decorative?(true/false)";
-			cin >> decorativePlant;
+		cin >> lianaPlant;
+		cout << endl << "Is this decorative?(true/false)";
+		cin >> decorativePlant;
 	}
 	void getLianaPlant() {
 		cout << lianaPlant;

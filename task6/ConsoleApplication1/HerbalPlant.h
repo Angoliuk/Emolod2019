@@ -1,16 +1,16 @@
 #pragma once
 #include "Plant.h"
-
-class Herbal : public Plant
+class HerbalPlant :
+	public Plant
 {
 private:
 	bool cerealPlant;
 	string typeCereal;
 public:
-	Herbal() {
+	HerbalPlant() {
 		cout << endl << "Is this cereal plant?(true/false)";
 		cin >> cerealPlant;
-		if (cerealPlant==true)
+		if (cerealPlant == true)
 		{
 			cout << endl << "Enter type of cereal";
 			cin >> typeCereal;
@@ -21,7 +21,7 @@ public:
 	}
 	void setCerealPlant() {
 		cin >> cerealPlant;
-		if (cerealPlant==true)
+		if (cerealPlant == true)
 		{
 			cout << endl << "Enter type of cereal";
 			cin >> typeCereal;
@@ -35,7 +35,7 @@ public:
 	}
 	void setTypeCereal() {
 		cin >> typeCereal;
-		if (cerealPlant==false)
+		if (cerealPlant == false)
 		{
 			cout << endl << "it`s not cereal plant";
 			typeCereal = "it`s not cereal plant";

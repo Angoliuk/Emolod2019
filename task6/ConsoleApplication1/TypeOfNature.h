@@ -1,7 +1,5 @@
 #pragma once
-#include <iostream>
-
-class Description
+class TypeOfNature
 {
 private:
 	bool extinct = false;
@@ -9,7 +7,7 @@ private:
 	bool danger = false;
 	string name;
 public:
-	Description() {
+	TypeOfNature() {
 		cout << endl << "Enter name of creature " << endl;
 		cin >> name;
 		cout << endl << "answer the question (true/false)" << endl << "Is this creature extinct?" << endl;

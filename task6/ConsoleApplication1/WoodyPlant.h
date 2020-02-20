@@ -1,15 +1,14 @@
 #pragma once
 #include "Plant.h"
-
-
-class Woody : public Plant
+class WoodyPlant :
+	public Plant
 {
 private:
 	string colorBark;
 	string	leafType;
 
 public:
-	Woody() {
+	WoodyPlant() {
 		cout << endl << "Enter type of leaf";
 		cin >> leafType;
 		cout << endl << "Enter color of bark";
