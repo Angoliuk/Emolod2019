@@ -1,15 +1,14 @@
 #pragma once
 #include "Animal.h"
-
-
-class CarnivorousAnimal : public Animal
+class CarnivorousAnimal :
+	public Animal
 {
 private:
 	bool hunterAnimal;
 public:
 	CarnivorousAnimal() {
 		cout << endl << "Is this animal hunt?(true/false)";
-			cin >> hunterAnimal;
+		cin >> hunterAnimal;
 	}
 	void getHunterAnimal() {
 		cout << hunterAnimal;

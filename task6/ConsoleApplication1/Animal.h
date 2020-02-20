@@ -1,8 +1,6 @@
 #pragma once
-#include "TypeOfNature.h"
-
-
-class Animal : public Description
+class Animal :
+	public TypeOfNature
 {
 private:
 	bool wild = false;
@@ -20,7 +18,7 @@ public:
 		if (enableFur == true)
 		{
 			cout << endl << "Enter color of fur ";
-				cin >> colorFur;
+			cin >> colorFur;
 		}
 	}
 	void getHeight() {
@@ -66,7 +64,7 @@ public:
 		if (enableFur == true)
 		{
 			cout << endl << "Enter color of fur ";
-				cin >> colorFur;
+			cin >> colorFur;
 		}
 	}
 };

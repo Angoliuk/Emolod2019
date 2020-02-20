@@ -14,18 +14,17 @@
 #include "HebivoresAnimal.h"
 #include "HerbalPlant.h"
 
-
 using namespace std;
 
 int main()
 {
-	Herbal wheat;
+	HerbalPlant wheat;
 	wheat.setCerealPlant();
 	Animal bear;
 	bear.setEnableFur();
 	Human nick;
 	nick.setAge();
-	Description elf;
+	TypeOfNature elf;
 	elf.setDanger();
 	elf.getDanger();
 }
