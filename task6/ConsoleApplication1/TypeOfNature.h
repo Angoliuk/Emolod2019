@@ -1,10 +1,15 @@
 #pragma once
+
+#include <iostream>
+
+using namespace std;
+
 class TypeOfNature
 {
 private:
-	bool extinct = false;
-	bool endangered = false;
-	bool danger = false;
+	bool extinct;
+	bool endangered;
+	bool danger;
 	string name;
 public:
 	TypeOfNature() {

@@ -1,4 +1,5 @@
 #pragma once
+#include "TypeOfNature.h"
 class Animal :
 	public TypeOfNature
 {
